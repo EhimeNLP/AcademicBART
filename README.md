@@ -36,7 +36,7 @@ fairseq-preprocess \
     --tgtdict ${DICT}
 ```
 ## Finetune
-The procedure for sentence classification using AcademicBART is as follows.
+The procedure for summary using AcademicBART is as follows.
 ```
 fairseq-train data-bin/ \
     --restore-file $BART_PATH \
