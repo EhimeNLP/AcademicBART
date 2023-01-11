@@ -58,7 +58,6 @@ fairseq-train data-bin/ \
     --lr-scheduler polynomial_decay --lr $LR --total-num-update $TOTAL_NUM_UPDATES --warmup-updates $WARMUP_UPDATES \
     --fp16 --update-freq $UPDATE_FREQ \
     --skip-invalid-size-inputs-valid-test \
-    --tensorboard-logdir ./runs \
     --no-epoch-checkpoints \
     --save-interval-updates $SAVE_INTERVAL --save-dir result_test \
     --patience 5 \
