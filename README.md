@@ -1,22 +1,7 @@
 # AcademicBART
 
 We pretrained a BART-based Japanese masked language model on paper abstracts from the academic database CiNii Articles.  
-[A Japanese Masked Language Model for Academic Domain](https://aclanthology.org/2022.sdp-1.16/)
-```
-@inproceedings{yamauchi-etal-2022-japanese,
-    title = "A {J}apanese Masked Language Model for Academic Domain",
-    author = "Yamauchi, Hiroki  and
-      Kajiwara, Tomoyuki  and
-      Katsurai, Marie  and
-      Ohmukai, Ikki  and
-      Ninomiya, Takashi",
-    booktitle = "Proceedings of the Third Workshop on Scholarly Document Processing",
-    year = "2022",
-    url = "https://aclanthology.org/2022.sdp-1.16",
-    pages = "152--157",
-}
 
-```
 
 ## Download
 They include a pretrained roberta model (700000_model.pt), a sentencepiece model (sp.model) , a dictionary (dict.txt) and code for applying sentencepiece (apply-sp.py) .
