@@ -4,7 +4,7 @@ We pretrained a BART-based Japanese masked language model on paper abstracts fro
 
 
 ## Download
-They include a pretrained roberta model (700000_model.pt), a sentencepiece model (sp.model) , a dictionary (dict.txt) and code for applying sentencepiece (apply-sp.py) .
+They include a pretrained roberta model (best_model.pt), a sentencepiece model (sp.model) , a dictionary (dict.txt) and code for applying sentencepiece (apply-sp.py) .
 ```
 wget http://aiweb.cs.ehime-u.ac.jp/~yamauchi/academic_model/Academic_BART_base.tar.gz
 ```
