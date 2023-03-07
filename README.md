@@ -62,4 +62,6 @@ fairseq-train data-bin/ \
     --patience 5 \
 ```
 ## Reference
-山内洋輝, 梶原智之, 桂井麻里衣, 大向一輝, 二宮崇. [学術ドメインに特化した日本語事前訓練モデルの構築](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q11-4.pdf)  . 言語処理学会第29回年次大会, pp.2842-2846, 2023.
+山内洋輝, 梶原智之, 桂井麻里衣, 大向一輝, 二宮崇.<br>
+[学術ドメインに特化した日本語事前訓練モデルの構築](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q11-4.pdf). <br>
+言語処理学会第29回年次大会, pp.2842-2846, 2023.
